@@ -1,28 +1,32 @@
-# HANDOFF — 2026-07-22 (session 3)
+# HANDOFF — 2026-07-22 (session 4)
 
 ## 本会话完成
 
-- **video-catwave 独立建仓 + submodule。** 创建 catwave-station 仓库，从 video-catwave 目录提取 14 个文件（SKILL.md + 13 Python 脚本），commit + push
-- **douban-anli-writer 补充内容。** 之前空仓库，现已写入 SKILL.md + references/style-guide.md，push
-- **claude-skills parent repo 提交 + push。** .gitmodules 更新（移除 stale 猫波信号站，新增 video-catwave + douban-anli-writer），submodule gitlink 已更新
-- **4 个 dirty submodule 清理。** github-mgmt (CHECKPOINT.md 删除), local-vision (llama-server 路径修复), perspective-router (BJ Fogg + LKS + Panluan perspective), vercel-deploy (DNS→DNSPod)。均已 commit + push 各自 main/master
-- **claude-skills README 更新。** 合并"已独立"和"待抽"两个列表为单一自建 Skill 列表，新增 video-catwave、douban-anli-writer、github-mgmt
+- **P1 第三方 skill 物理迁移。** 79 个第三方 skill 从 claude-skills 迁移至 third-party-skills 独立仓库（commit 4396a34）。claude-skills 中 `git rm -r` 删除 1,526 文件（-523,146 行），commit 3d0b731。
+- **2 个残留目录清理。** anysearch/（untracked runtime.conf）和 clone-study/（embedded .git）已物理删除。
+- **CHECKPOINT.md 清理。** claude-skills 根目录 CHECKPOINT.md 已删除。
+- **caveman 问题自动解决。** 随 79 个第三方 skill 一起迁入 third-party-skills，claude-skills 中不再残留。
+- **claude-skills README 重写。** 纯自建 Skill submodule 合集，第三方指向 third-party-skills。
 
-## 未完成
+## claude-skills 最终状态
 
-### P1 — 第三方 skill 物理迁移
-75+ 个第三方 skill 目录仍在 claude-skills 仓库内。只有 README 做了归属标注，实际文件未迁走。
-需要：逐批 fork → 移入 third-party-skills 仓库 → claude-skills 中删除目录。
+- 38 个 submodule（全部自建 Skill）
+- 2 个普通文件：README.md + .gitmodules
+- 干净工作树，无 untracked 文件
+- 远程 commit: 3d0b731
 
-### 修复项
-- **caveman**：gitlink 存在但 .gitmodules 无映射。来源 KKKKhazix/khazix-skills。需 fork 后补 submodule 条目。
-- **douban-anli-writer**：空仓库问题已修复，内容已 push。
-- **video-catwave**：独立建仓 + submodule 完成。
+## third-party-skills 状态
 
-### P4 — 僵尸仓库确认
-loop-engine, source-rack, research-methods 上次确认均有用，不归档。
+- 79 个第三方 skill 目录
+- README 含完整归属声明
+- 远程: https://github.com/wampeeHuang/third-party-skills (commit 4396a34)
+
+## 无未完成项
+
+claude-skills 拆分任务全部完成。HANDOFF 中所有 P1/P4/修复项已清零。
 
 ## 参考
-- claude-skills 远程：https://github.com/wampeeHuang/claude-skills（commit 5ce20b1）
-- third-party-skills 远程：https://github.com/wampeeHuang/third-party-skills
+
+- claude-skills 远程：https://github.com/wampeeHuang/claude-skills（commit 3d0b731）
+- third-party-skills 远程：https://github.com/wampeeHuang/third-party-skills（commit 4396a34）
 - github-mgmt 操作日志：references/cleanup-plan-template.md §操作记录
