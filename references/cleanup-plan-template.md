@@ -101,3 +101,4 @@ git submodule add https://github.com/wampeeHuang/<repo>.git <path>
 | 2026-07-22 | claude-skills | git rm -r 删除79个第三方目录（-523,146行），commit 3d0b731 | ✓ |
 | 2026-07-22 | claude-skills README | 重写为纯自建 submodule 合集，第三方指向 third-party-skills | ✓ |
 | 2026-07-22 | claude-skills | 清理残留目录 anysearch/ clone-study/ + CHECKPOINT.md | ✓ |
+| 2026-07-22 | third-party-skills | 新建 SOURCES.md，79个skill逐一标注原始仓库来源 | ✓ |
