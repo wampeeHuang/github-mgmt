@@ -100,20 +100,20 @@
 | guizang-ppt-skill | https://github.com/op7418/guizang-ppt-skill |
 | guizang-social-card-skill | https://github.com/op7418/guizang-social-card-skill |
 
-## KKKKhazix (2)
+## KKKKhazix / 数字生命卡兹克 (1)
 
 来源: [github.com/KKKKhazix/khazix-skills](https://github.com/KKKKhazix/khazix-skills)
 
 | Skill | 原始目录 |
 |-------|---------|
-| caveman | [skills/caveman](https://github.com/KKKKhazix/khazix-skills/tree/main/skills/caveman) |
 | neat-freak | [skills/neat-freak](https://github.com/KKKKhazix/khazix-skills/tree/main/skills/neat-freak) |
 
-## 社区个人作者 (13)
+## 社区个人作者 (14)
 
 | Skill | 原始仓库 | 确认 |
 |-------|---------|------|
 | anysearch | https://github.com/anysearch-ai/anysearch-skill | ✓ |
+| caveman | https://github.com/JuliusBrussee/caveman | ✓ |
 | beautiful-feishu-whiteboard | https://github.com/zarazhangrui/beautiful-feishu-whiteboard | ✓ |
 | claude-mem | https://github.com/thedotmack/claude-mem | ✓ |
 | clone-study | https://github.com/luukalleman/clone-study | ? |
@@ -136,8 +136,8 @@
 | larksuite/cli | 27 |
 | OpenCLI | 6 |
 | op7418 | 2 |
-| KKKKhazix | 2 |
-| 社区个人 | 13 |
+| KKKKhazix | 1 |
+| 社区个人 | 14 |
 | **总计** | **79** |
 
 ## 说明
