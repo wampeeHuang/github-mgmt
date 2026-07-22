@@ -90,3 +90,10 @@ git submodule add https://github.com/wampeeHuang/<repo>.git <path>
 | 2026-07-22 | 9 perspective-* | 独立建仓 + submodule | ✓ |
 | 2026-07-22 | douban-anli-writer | 空仓库（源目录不存在），无法删除（token缺delete_repo） | ⚠️ |
 | 2026-07-22 | caveman | 第三方skill，gitlink存在但无.gitmodules映射 | ⚠️ 待修复 |
+| 2026-07-22 | video-catwave | 独立建仓(catwave-station) + submodule 入 claude-skills | ✓ |
+| 2026-07-22 | douban-anli-writer | 补充内容(SKILL.md + style-guide.md) + submodule | ✓ |
+| 2026-07-22 | github-mgmt | CHECKPOINT.md 删除 + commit push | ✓ |
+| 2026-07-22 | local-vision | llama-server 路径修复 commit push | ✓ |
+| 2026-07-22 | perspective-router | BJ Fogg + LKS + Panluan perspective commit push | ✓ |
+| 2026-07-22 | vercel-deploy | DNS→DNSPod 修复 commit push | ✓ |
+| 2026-07-22 | claude-skills | parent repo commit push (5ce20b1)，README 合并列表 | ✓ |
