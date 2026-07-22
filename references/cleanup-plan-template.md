@@ -76,3 +76,17 @@ git submodule add https://github.com/wampeeHuang/<repo>.git <path>
 | 2026-07-22 | picture-remove-mark-google-ai | → private | ✓ |
 | 2026-07-22 | thinkprism-miniapp | 补充 README | ✓ |
 | 2026-07-22 | picture-remove-mark-google-ai | 重写 README 为中文 | ✓ |
+| 2026-07-22 | 6个缺 description 仓库 | 补充 About | ✓ |
+| 2026-07-22 | third-party-skills | 新建仓库 + 归属 README | ✓ |
+| 2026-07-22 | claude-skills README | 更新结构说明 + 安装命令 | ✓ |
+| 2026-07-22 | github-mgmt | 独立建仓 + submodule 入 claude-skills | ✓ |
+| 2026-07-22 | code-review | 独立建仓 + submodule | ✓ |
+| 2026-07-22 | huashu-design | 独立建仓 + submodule（174文件） | ✓ |
+| 2026-07-22 | huashu-research | 独立建仓 + submodule | ✓ |
+| 2026-07-22 | nuwa-skill | 独立建仓 + submodule（139文件） | ✓ |
+| 2026-07-22 | project-scheme | 独立建仓 + submodule | ✓ |
+| 2026-07-22 | internal-comms | 独立建仓 + submodule | ✓ |
+| 2026-07-22 | smart-search | 独立建仓 + submodule | ✓ |
+| 2026-07-22 | 9 perspective-* | 独立建仓 + submodule | ✓ |
+| 2026-07-22 | douban-anli-writer | 空仓库（源目录不存在），无法删除（token缺delete_repo） | ⚠️ |
+| 2026-07-22 | caveman | 第三方skill，gitlink存在但无.gitmodules映射 | ⚠️ 待修复 |
